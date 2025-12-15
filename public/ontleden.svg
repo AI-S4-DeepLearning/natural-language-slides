@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1216 706" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-981.205,-630.245)">
+        <g transform="matrix(1.76081,0,0,1.76081,106.48,-516.651)">
+            <g transform="matrix(50,0,0,50,600.375,842.168)">
+            </g>
+            <text x="491.975px" y="842.168px" style="font-family:'Avenir-Book', 'Avenir';font-size:50px;fill:white;">Kees</text>
+        </g>
+        <g transform="matrix(1.76081,0,0,1.76081,106.48,-627.546)">
+            <g transform="matrix(42.594,0,0,42.594,575.756,842.168)">
+            </g>
+            <text x="516.593px" y="842.168px" style="font-family:'Avenir-Medium', 'Avenir';font-weight:500;font-size:42.594px;fill:rgb(0,160,210);">NP</text>
+        </g>
+        <g transform="matrix(1.76081,0,0,1.76081,890.74,-449.262)">
+            <g transform="matrix(42.594,0,0,42.594,575.756,842.168)">
+            </g>
+            <text x="516.593px" y="842.168px" style="font-family:'Avenir-Medium', 'Avenir';font-weight:500;font-size:42.594px;fill:rgb(0,160,210);">NP</text>
+        </g>
+        <g transform="matrix(1.76081,0,0,1.76081,674.522,-627.546)">
+            <g transform="matrix(42.594,0,0,42.594,572.221,842.168)">
+            </g>
+            <text x="520.128px" y="842.168px" style="font-family:'Avenir-Medium', 'Avenir';font-weight:500;font-size:42.594px;fill:rgb(0,160,210);">VP</text>
+        </g>
+        <g transform="matrix(1.76081,0,0,1.76081,380.264,-798.202)">
+            <g transform="matrix(42.594,0,0,42.594,558.016,842.168)">
+            </g>
+            <text x="534.333px" y="842.168px" style="font-family:'Avenir-Medium', 'Avenir';font-weight:500;font-size:42.594px;fill:rgb(0,160,210);">S</text>
+        </g>
+        <g transform="matrix(1.76081,0,0,1.76081,437.256,-357.367)">
+            <g transform="matrix(50,0,0,50,578.925,842.168)">
+            </g>
+            <text x="491.975px" y="842.168px" style="font-family:'Avenir-Book', 'Avenir';font-size:50px;fill:white;">riep</text>
+        </g>
+        <g transform="matrix(1.76081,0,0,1.76081,437.256,-449.262)">
+            <g transform="matrix(42.594,0,0,42.594,548.867,842.168)">
+            </g>
+            <text x="522.032px" y="842.168px" style="font-family:'Avenir-Medium', 'Avenir';font-weight:500;font-size:42.594px;fill:rgb(0,160,210);">V</text>
+        </g>
+        <g transform="matrix(1.76081,0,0,1.76081,730.978,-167.845)">
+            <g transform="matrix(50,0,0,50,513.275,842.168)">
+            </g>
+            <g transform="matrix(50,0,0,50,525.15,842.168)">
+            </g>
+            <g transform="matrix(50,0,0,50,564.825,842.168)">
+            </g>
+            <text x="491.975px" y="842.168px" style="font-family:'Avenir-Book', 'Avenir';font-size:50px;fill:white;">zĳn</text>
+        </g>
+        <g transform="matrix(1.76081,0,0,1.76081,730.978,-264.74)">
+            <g transform="matrix(42.594,0,0,42.594,563.902,842.168)">
+            </g>
+            <text x="492.897px" y="842.168px" style="font-family:'Avenir-Medium', 'Avenir';font-weight:500;font-size:42.594px;fill:rgb(0,160,210);">Det</text>
+        </g>
+        <g transform="matrix(1.76081,0,0,1.76081,1021.67,-167.845)">
+            <g transform="matrix(50,0,0,50,666.975,842.168)">
+            </g>
+            <text x="491.975px" y="842.168px" style="font-family:'Avenir-Book', 'Avenir';font-size:50px;fill:white;">moeder</text>
+        </g>
+        <g transform="matrix(1.76081,0,0,1.76081,1021.67,-264.74)">
+            <g transform="matrix(42.594,0,0,42.594,596.427,842.168)">
+            </g>
+            <text x="562.522px" y="842.168px" style="font-family:'Avenir-Medium', 'Avenir';font-weight:500;font-size:42.594px;fill:rgb(0,160,210);">N</text>
+        </g>
+        <path d="M1070.7,776.769L1341.97,699.28L1634.38,776.769" style="fill:none;stroke:rgb(0,160,210);stroke-width:6.25px;"/>
+        <g transform="matrix(0.782624,0,0,1,575.851,179.889)">
+            <path d="M1029.58,776.769L1341.97,699.28L1634.38,776.769" style="fill:none;stroke:rgb(0,160,210);stroke-width:6.96px;"/>
+        </g>
+        <g transform="matrix(0.675555,0,0,1,941.243,359.808)">
+            <path d="M1070.7,776.769L1341.97,699.28L1634.38,776.769" style="fill:none;stroke:rgb(0,160,210);stroke-width:7.32px;"/>
+        </g>
+    </g>
+</svg>
