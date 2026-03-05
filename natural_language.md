@@ -697,6 +697,26 @@ image: ./projection.jpg
   - Global (GloVe)
 
 ---
+
+# Index-notatie
+
+Des te complexer tensoren worden, des te lastiger wordt het om deze te overzien.
+- Hebben we te maken met een rij van kolommen van rijen? Of een rij van rijen van kolommen?
+- Welke "assen" willen we verwisselen bij een transpositie?
+- Op welke manier wordt een vermenigvuldiging uitgevoerd?
+
+**In dit geval is het handiger om met index-notatie te werken, en de basis expliciet te benoemen.**
+
+###  Voorbeeld
+
+$T_{ij}^k\textcolor{grey}{e_k\otimes\epsilon^i\otimes\epsilon^j}$ staat voor *"[y] ziet [x]"*. We willen dit combineren met vectoren $m^a \textcolor{grey}{e_a}$ (*"man"*) en $h^b \textcolor{grey}{e_b}$ (*"hond"*).
+
+- Voor *"(De) man ziet (de) hond"* zetten we de index van *"hond"* gelijk aan de eerste index van *"zien"*, en die van *"man"* aan de tweede: 
+$$S = \mathbf T \ket h \ket m = T_{ij}^kh_im_j = T_{ij}^km_jh_i \mapsto S^k e_k$$
+- Voor *"(De) hond ziet (de) man"* zetten we de index van *"man"* gelijk aan de eerste index van *"zien"*, en die van *"hond"* aan de tweede: 
+$$S = \mathbf T \ket m \ket h = T_{ij}^km_ih_j = T_{ij}^kh_jm_i \mapsto S^k e_k$$
+
+---
 layout: image-right
 image: count.jpg
 ---
