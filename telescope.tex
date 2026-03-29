@@ -1,0 +1,26 @@
+\documentclass{tufte-handout}
+\usepackage{forest}
+\begin{document}
+\noindent\textbf{There's a man on the hill, holding a telescope.}\\
+\begin{forest}
+[S, for tree={parent anchor=south, child anchor=north}[NP[I, tier=word]][VP[V[saw, tier=word]][NP[DET[the, tier=word]][N[N[N[man, tier=word]][PP[P[on, tier=word]][NP[DET[the, tier=word]][N[hill, tier=word]]]]][PP[P[with, tier=word]][NP[DET[the, tier=word]][N[telescope, tier=word]]]]]]]]
+\end{forest}\\[5mm]
+\noindent\textbf{There's a man on the hill, whom I see with my telescope.}\\
+\begin{forest}
+[S, for tree={parent anchor=south, child anchor=north}[NP[I, tier=word]][VP[VP[V[saw, tier=word]][NP[DET[the, tier=word]][N[N[man, tier=word]][PP[P[on, tier=word]][NP[DET[the, tier=word]][N[hill, tier=word]]]]]]][PP[P[with, tier=word]][NP[DET[the, tier=word]][N[telescope, tier=word]]]]]]
+\end{forest}\\[5mm]
+\newpage
+\noindent\textbf{Being on a hill and using a telescope, I saw a man.}\\
+\begin{forest}
+[S, for tree={parent anchor=south, child anchor=north}[NP[I, tier=word]][VP[VP[VP[V[saw, tier=word]][NP[DET[the, tier=word]][N[man, tier=word]]]][PP[P[on, tier=word]][NP[DET[the, tier=word]][N[hill, tier=word]]]]][PP[P[with, tier=word]][NP[DET[the, tier=word]][N[telescope, tier=word]]]]]]
+\end{forest}\\[5mm]
+\noindent\textbf{Whilst being on a hill with a telescope on it, I saw a man.}\\
+\begin{forest}
+[S, for tree={parent anchor=south, child anchor=north}[NP[I, tier=word]][VP[VP[V[saw, tier=word]][NP[DET[the, tier=word]][N[man, tier=word]]]][PP[P[on, tier=word]][NP[DET[the, tier=word]][N[N[hill, tier=word]][PP[P[with, tier=word]][NP[DET[the, tier=word]][N[telescope, tier=word]]]]]]]]]
+\end{forest}\\[5mm]
+\newpage
+\noindent\textbf{There is a man on the telescope-hill.}\\
+\begin{forest}
+[S, for tree={parent anchor=south, child anchor=north}[NP[I, tier=word]][VP[V[saw, tier=word]][NP[DET[the, tier=word]][N[N[man, tier=word]][PP[P[on, tier=word]][NP[DET[the, tier=word]][N[N[hill, tier=word]][PP[P[with, tier=word]][NP[DET[the, tier=word]][N[telescope, tier=word]]]]]]]]]]]
+\end{forest}\\[5mm]
+\end{document}
