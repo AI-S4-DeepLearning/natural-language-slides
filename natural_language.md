@@ -574,11 +574,30 @@ image: discocat.jpg
 
 # DisCoCat
 
+- Categorical Compositional Distributional (semantics)
 - Word-vectors in meeste modellen "1D" (vectoren)
 - Geen onderscheid grammaticale Functies
 - DisCoCat gebaseerde modellen gebruiken matrices ("2D") voor bijvoorbeeld bijvoegelijk naamwoorden
 - Extensie naar "3D" "matrices" voor transitieve woorden
 - Tensors
+
+---
+
+# Parse tree
+
+<img src="/man_telescope.svg" style="margin: 40px auto; height: 40vh;" />
+
+---
+
+# Translation
+
+<img src="/discocat-grammar.svg" style="margin: 40px auto; width: 50vw;" />
+
+---
+
+# Result
+
+<img src="/man_telescope_vec.svg" style="margin: 40px auto; height: 40vh;" />
 
 ---
 
@@ -1028,3 +1047,128 @@ layout: chaptertitle
 
 # [NLP-5] Document Databases
 
+---
+
+# Werkcollege
+
+## Klein beetje stof - toepassing LHS in Doc Databases, wat bestaat er?
+TODO @Brian
+
+---
+layout: chaptertitle
+---
+
+# Portfolio-item
+## [NLP-I] Word Embeddings
+
+---
+layout: chaptertitle
+---
+
+# [NLP-6] Large Language Models
+
+---
+
+# Vanaf hier @Tijmen?
+
+---
+layout: image-right
+image: transformers.png
+---
+
+# Deep Learning for NLP
+
+- Bidirectional Encoder Representations from Transformers (BERT)
+- Generative Pre-trained Transformer (GPT)
+- Transformers
+- Attention
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+*Source: Vaswani et al. (2017)*
+
+---
+layout: image-left
+image: bert.jpg
+---
+
+# BERT
+- Bidirectional Encoder Representations from Transformers
+
+- Transformer Encoder
+- Input tokens matchen output tokens (of MASK)
+- Left to right en right to left
+- Generate all at once
+
+---
+layout: image-right
+image: gpt.webp
+---
+
+# GPT
+- Generative Pre-trained Transformer
+- Autoregressive Transformer Decoder
+- Token stream generator obv vorige token
+- Geen encoder nodig
+- Autonoom lezen corpora / unlabeled data
+
+---
+
+# Encoder / Decoder
+
+<div style="display: inline-block; margin-right: 50px">
+
+- Self-attention Mechanism 
+- Bewerk delen input sequence parallel
+- Efficienter in capturen relaties
+- Encode global context in representaties
+- Gebruik downstream (predict / answer)
+
+</div> <img style="display: inline-block; margin:auto" width="400" src="/encoder-decoder.png" />
+
+*Source: Chaudhari et al. (2021)*
+
+---
+
+# Attention
+
+
+<a href="https://colab.research.google.com/github/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/hello_t2t.ipynb#scrollTo=OJKU36QAfqOC">
+    <img style="padding: 3px; background: black; border: 2px solid #00a0ff; margin:auto" width="300" src="/attention.gif" />
+</a>
+
+&nbsp;
+
+&nbsp;
+
+*Source: [GPT and BERT: A Comparison of Transformer Architectures](https://dev.to/meetkern/gpt-and-bert-a-comparison-of-transformer-architectures-2k46), Leonard Püttmann*
+
+
+---
+layout: chaptertitle
+---
+
+# [NLP-7] Attention
+
+---
+layout: chaptertitle
+---
+
+# [NLP-8] NanoGPT
+
+---
+layout: chaptertitle
+---
+
+# Portfolio-item
+## [NLP-II] Large Language Models
